@@ -1,0 +1,23 @@
+body {
+    background-image:url("bg.png");
+    font-family: 'Special Elite', cursive;
+    color: rgb(131, 1, 253);
+    font-weight: bolder;
+}
+h1{
+    background-image: url("sp.png");
+    font-weight: bolder;
+    
+}
+marquee{
+    background-image: url("sp.png");
+}
+canvas{
+    animation-name: nose;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes nose{
+    from{box-shadow: 10px 10px 76px rgb(0, 38, 255);}
+    to{box-shadow: 10px 10px 76px rgb(0, 0, 0);}
+}
